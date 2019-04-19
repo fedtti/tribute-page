@@ -1,0 +1,35 @@
+{
+  "name": "tribute-page",
+  "author": "Federico Moretti <hello@federicomoretti.it> (https://federicomoretti.it/)",
+  "bugs": "https://github.com/fedtti/tribute-page/issues",
+  "homepage": "https://codepen.io/fedtti/full/jXpKON",
+  "version": "1.0.0",
+  "license": "MIT",
+  "keywords": [
+    "autoprefixer",
+    "babel",
+    "browsersync",
+    "css",
+    "gulp",
+    "html",
+    "html5shiv",
+    "javascript",
+    "jquery",
+    "sass"
+  ],
+  "description": "Tribute Page • freeCodeCamp",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fedtti/tribute-page.git"
+  },
+  "main": "js/main.js",
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "^7.4.3",
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-autoprefixer": "^6.1.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-sass": "^4.0.2"
+  }
+}
