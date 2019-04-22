@@ -4,18 +4,43 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="shortcut icon" href="/favicon.ico">
-    <title>Tribute Page</title>
+    <link rel="prefetch stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Tribute Page • freeCodeCamp</title>
   </head>
   <body>
     <main id="main" tabindex="-1">
-      <header>
-
+      <!-- Header -->
+      <header class="head">
+        <div class="head__container">
+          <h1 class="head__title" id="title">Caravaggio</h1>
+          <p class="head__subtitle">Michelangelo Merisi</p>
+        </div>
       </header>
-      <section aria-label="">
-        <h1 id="title"></h1>
-      </section>
+      <!-- Content -->
+      <section aria-label="Tribute to Caravaggio (Michelangelo Merisi)" class="info">
+        <div class="info__container">
+          <div class="info__portrait" id="img-div">
+              <img alt="Portrait of Caravaggio" class="info__portrait__image" height="240" id="image" sizes="(min-width: 768px) 480w, (min-width: 1200) 720w" src="img/caravaggio.jpg" srcset="img/caravaggio.jpg 240w, img/caravaggio_x2.jpg 480w, img/caravaggio_x3.jpg 720w" width="240">
+              <p class="info__portrait__caption" id="img-caption">
+                Portrait of Caravaggio by Ottavio Leoni
+              </p>
+          </div>
+          <div class="info__" id="tribute-info">
 
+          </div>
+        </div>
+      </section>
+      <!-- Footer -->
+      <footer class="foot">
+        <p class="foot__copyright">
+          © 2019 Federico Moretti. All rights reserved. Released under <a href="LICENSE" rel="license noopener noreferrer" target="_blank">a <abbr title="Massachusetts Institute of Technology">MIT</abbr> license</a>.
+        </p>
+      </footer>
     </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="serviceWorker.js"></script>
   </body>
 </html>
