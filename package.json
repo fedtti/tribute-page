@@ -11,8 +11,6 @@
     "gulp",
     "html",
     "html5shiv",
-    "javascript",
-    "jquery",
     "sass"
   ],
   "description": "Tribute Page • freeCodeCamp",
@@ -20,7 +18,7 @@
     "type": "git",
     "url": "https://github.com/fedtti/tribute-page.git"
   },
-  "main": "js/main.js",
+  "main": "/gulpfile.js",
   "private": true,
   "devDependencies": {
     "gulp": "^4.0.0",
