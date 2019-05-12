@@ -7,8 +7,10 @@
   "license": "MIT",
   "keywords": [
     "autoprefixer",
+    "browser-sync",
     "css",
     "gulp",
+    "gulp-rename",
     "html",
     "html5shiv",
     "sass"
@@ -21,8 +23,10 @@
   "main": "/gulpfile.js",
   "private": true,
   "devDependencies": {
-    "gulp": "^4.0.0",
+    "browser-sync": "^2.26.5",
+    "gulp": "^4.0.2",
     "gulp-autoprefixer": "^6.1.0",
+    "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.2"
   },
   "engines": {
