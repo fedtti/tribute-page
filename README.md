@@ -18,11 +18,11 @@ Please, notice that `fsevents` only works on macOS: it doesn’t break any depen
 
 ### Requirements
 
-- Gulp
-- Sass
+- [Gulp](https://gulpjs.com/)
+- [Sass](https://sass-lang.com/)
 - Autoprefixer
 - CleanCSS
-- BrowserSync
+- [BrowserSync](https://browsersync.io/)
 
 ```
 npm i -g gulp-cli

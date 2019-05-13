@@ -4,14 +4,33 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700");
 
 *:focus {
-  outline: none;
+  outline: 0;
 }
 
 .site {
   font: 400 1rem/1 "Source Sans Pro", sans-serif;
 
-  .site__main {
+  &__main {
     padding: 1rem;
+  }
+
+  /* Header */
+  &__head {
+    &__title {
+      margin: 0;
+    }
+  }
+
+  &__foot {
+    &__credits {
+      line-height: 1.5;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    &__link {
+      text-decoration: none;
+    }
   }
 }
 
