@@ -12,7 +12,7 @@ git co https://github.com/fedtti/tribute-page
 npm i
 ```
 
-Please, notice that `fsevents` only works on macOS: it doesn’t break any dependency.
+Please, notice that `fsevents` only works on macOS: it doesn’t break any dependency – despite the given error – on other platforms.
 
 ## Contributing
 
