@@ -17,7 +17,11 @@ const styles = () => {
          .pipe(autoprefixer({
 
          }))
-         .pipe(cleanCSS())
+         .pipe(cleanCSS({
+           format: {
+             breakWith: "lf"
+           }
+         }))
          .pipe(rename({
            extname: ".min.css"
          }))
