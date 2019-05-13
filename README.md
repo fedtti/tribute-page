@@ -2,10 +2,17 @@
 
 ## Installing
 
+### Requirements
+
+- Node.js
+- npm
+
 ```
 git co https://github.com/fedtti/tribute-page
 npm i
 ```
+
+Please, notice that `fsevents` only works on macOS: it doesn’t break any dependency.
 
 ## Contributing
 
@@ -14,8 +21,6 @@ npm i
 ```
 gulp
 ```
-
-Please, notice that `fsevents` only works on macOS: it doesn’t break any dependency.
 
 ## License
 
