@@ -21,6 +21,7 @@ Please, notice that `fsevents` only works on macOS: it doesn’t break any depen
 - Gulp
 - Sass
 - Autoprefixer
+- CleanCSS
 - BrowserSync
 
 ```

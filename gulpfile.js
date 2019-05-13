@@ -4,6 +4,7 @@
 const { src, dest, watch } = require("gulp");
 const sass = require("gulp-sass");
 const autoprefixer = require("gulp-autoprefixer");
+const cleanCSS = require("gulp-clean-css");
 const rename = require("gulp-rename");
 const browserSync = require("browser-sync").create();
 
@@ -16,9 +17,9 @@ const styles = () => {
          .pipe(autoprefixer({
 
          }))
-
+         .pipe(cleanCSS())
          .pipe(rename({
-           extname: ".min.js"
+           extname: ".min.css"
          }))
          .pipe(dest("css/"));
 };
