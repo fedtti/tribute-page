@@ -1,4 +1,14 @@
-# Tribute Page • freeCodeCamp
+# Tribute Page • freeCodeCa
+
+## Installing
+
+```
+git co https://github.com/fedtti/tribute-page
+npm i
+gulp
+```
+
+## Contributing
 
 ## License
 
