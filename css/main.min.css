@@ -1,14 +1,11 @@
 /**
  *
  */
-
 /**
  * Set chainable BEM modifiers (see http://bit.ly/2Vu5HvP).
  */
 .-text-bold {
-  font-weight: 700;
-}
+  font-weight: 700; }
 
 .-text-small {
-  font-size: 0.75rem;
-}
+  font-size: 0.75rem; }
