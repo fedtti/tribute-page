@@ -4,12 +4,18 @@
 
 ### Requirements
 
-- [Node.js](https://nodejs.org/) ^10.15.3
-- [npm](https://www.npmjs.com/) ^6.9.0
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
+- [Gulp](https://gulpjs.com/)
+
+Gulp CLI is required to run the preview site _and_ start the development environment.
 
 ```
+npm i -g gulp-cli
 git co https://github.com/fedtti/tribute-page
+cd tribute-page/
 npm i
+gulp
 ```
 
 Please, notice that `fsevents` only works on macOS: it doesn’t break any dependency – despite the given error – on other platforms.
@@ -26,7 +32,9 @@ Please, notice that `fsevents` only works on macOS: it doesn’t break any depen
 
 ```
 npm i -g gulp-cli
+git co https://github.com/fedtti/tribute-page
 cd tribute-page/
+npm i -D browser-sync gulp-autoprefixer gulp-clean-css gulp-rename gulp-sass
 gulp
 ```
 
