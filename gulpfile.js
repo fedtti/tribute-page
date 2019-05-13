@@ -38,5 +38,11 @@ exports.default = () => {
     }
   });
 
-  watch("scss/*.scss", styles, browserSync.reload());
+  watch("scss/*.scss", styles).on("change", () => {
+    browserSync.reload();
+  });
+
+  watch("index.html").on("change", () => {
+    browserSync.reload();
+  });
 };

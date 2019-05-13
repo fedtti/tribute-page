@@ -1,7 +1,19 @@
 /**
  *
  */
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700");
+
+*:focus {
+  outline: none;
+}
+
+.site {
+  font: 400 1rem/1 "Source Sans Pro", sans-serif;
+
+  .site__main {
+    padding: 1rem;
+  }
+}
 
 /**
  * Set chainable BEM modifiers (see http://bit.ly/2Vu5HvP).
@@ -11,5 +23,5 @@
 }
 
 .-text-small {
-  font-size: 0.75rem;
+  font-size: 0.875rem;
 }
