@@ -24,6 +24,8 @@ Please, notice that `fsevents` only works on macOS: it doesn’t break any depen
 - BrowserSync
 
 ```
+npm i -g gulp-cli
+cd tribute-page/
 gulp
 ```
 
