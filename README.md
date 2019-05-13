@@ -1,4 +1,4 @@
-# Tribute Page • freeCodeCa
+# Tribute Page • freeCodeCamp
 
 ## Installing
 
@@ -7,6 +7,8 @@ git co https://github.com/fedtti/tribute-page
 npm i
 gulp
 ```
+
+Please, notice that `fsevents` only works on macOS: it doesn’t break any dependency.
 
 ## Contributing
 
