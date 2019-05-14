@@ -4,6 +4,8 @@
 
 ## Installing
 
+You don’t need to install this project at all, if you just want to have a look at [the live preview](https://codepen.io/fedtti/full/jXpKON).
+
 ### Requirements
 
 - [Node.js](https://nodejs.org/)
