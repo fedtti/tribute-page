@@ -44,6 +44,8 @@ npm i -D browser-sync gulp-autoprefixer gulp-clean-css gulp-rename gulp-sass
 gulp
 ```
 
+Feel free to submit pull requests since I’ve already completed the learning path.
+
 ## License
 
 © 2019 **[Federico Moretti](https://federicomoretti.it/)**. All rights reserved. Released under [a MIT license](/LICENSE).
