@@ -13,15 +13,17 @@ const browserSync = require("browser-sync").create();
  */
 const styles = () => {
   return src("scss/*.scss")
+         //
          .pipe(sass())
-         .pipe(autoprefixer({
-
-         }))
+         //
+         .pipe(autoprefixer())
+         //
          .pipe(cleanCSS({
            format: {
              breakWith: "lf"
            }
          }))
+         //
          .pipe(rename({
            extname: ".min.css"
          }))

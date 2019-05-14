@@ -1,5 +1,7 @@
 # Tribute Page • freeCodeCamp
 
+
+
 ## Installing
 
 ### Requirements
@@ -8,7 +10,7 @@
 - [npm](https://www.npmjs.com/)
 - [Gulp](https://gulpjs.com/)
 
-Gulp CLI is required to run the preview site _and_ start the development environment.
+Gulp CLI is required to run the preview site _and/or_ to start the development environment.
 
 ```
 npm i -g gulp-cli
@@ -21,6 +23,8 @@ gulp
 Please, notice that `fsevents` only works on macOS: it doesn’t break any dependency – despite the given error – on other platforms.
 
 ## Contributing
+
+Being a freeCodeCamp project, you have some limits: see [the official guidelines](https://learn.freecodecamp.org/responsive-web-design/responsive-web-design-projects/build-a-tribute-page) to know more.
 
 ### Requirements
 
