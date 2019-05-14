@@ -1,10 +1,10 @@
 # Tribute Page • freeCodeCamp
 
-
+Responsive Web Design Projects
 
 ## Installing
 
-You don’t need to install this project at all, if you just want to have a look at [the live preview](https://codepen.io/fedtti/full/jXpKON).
+You don’t need to install this project at all, if you just want to have a look at [the online preview](https://codepen.io/fedtti/full/jXpKON).
 
 ### Requirements
 
@@ -12,11 +12,11 @@ You don’t need to install this project at all, if you just want to have a look
 - [npm](https://www.npmjs.com/)
 - [Gulp](https://gulpjs.com/)
 
-Gulp CLI is required to run the preview site _and/or_ to start the development environment.
+Gulp CLI is required to run the live preview _and/or_ to start the development environment.
 
 ```
 npm i -g gulp-cli
-git co https://github.com/fedtti/tribute-page
+git co https://github.com/fedtti/tribute-page.git
 cd tribute-page/
 npm i
 gulp
@@ -38,7 +38,7 @@ Being a freeCodeCamp project, you have some limits: see [the official guidelines
 
 ```
 npm i -g gulp-cli
-git co https://github.com/fedtti/tribute-page
+git co https://github.com/fedtti/tribute-page.git
 cd tribute-page/
 npm i -D browser-sync gulp-autoprefixer gulp-clean-css gulp-rename gulp-sass
 gulp
